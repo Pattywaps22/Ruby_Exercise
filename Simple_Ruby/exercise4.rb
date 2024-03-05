@@ -6,5 +6,5 @@ def find_name(full_name)
 
 end
 
-name = {first_name: 'Anna Patricia', last_name: 'Entrada'}
+name = {first_name: 'Stacey Bridget', last_name: 'Alcantara'}
 puts find_name(name)
