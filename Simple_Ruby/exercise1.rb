@@ -5,9 +5,9 @@
 
 def calculate_age(birth_year)
   current_year = 2024
-  birth_year = 2001
     age = current_year - birth_year
-  print"I was born in #{birth_year}, and I am now #{age} years old.\n"
+  "I was born in #{birth_year}, and I am now #{age} years old.\n"
 end
 
-p calculate_age(2001)
+birth_year = 2001
+puts calculate_age(birth_year)

@@ -4,17 +4,19 @@
 # Print a message that includes the original numbers and the results of each operation.
 
 def calculate_value(num1,num2)
-  num1 = 25
-  num2 = 10
+
     sum_result = num1 + num2
   difference_result = num1 - num2
   product_result = num1 * num2
   quotient_result = num1.to_f/ num2
 
-puts "sum: #{sum_result}"
-puts "difference: #{difference_result}"
-puts "product: #{product_result}"
-puts "quotient: #{quotient_result}"
-  end
+    puts "The sum of #{num1} and #{num2} is #{sum_result}"
+    puts "The difference of #{num1} and #{num2} is #{difference_result}"
+    puts "The product of #{num1} and #{num2} is #{product_result}"
+    puts "The quotient of #{num1} and #{num2} is #{quotient_result}"
 
-calculate_value(25,10)
+end
+
+num1 = 25
+num2 = 10
+calculate_value(num1, num2)
