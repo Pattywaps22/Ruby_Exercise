@@ -5,7 +5,8 @@ def calculate_sum(num1,num2)
 
   "The sum of #{num1} and #{num2} is #{sum}"
 end
-
-num1 = 10
-num2 = 25
+print 'number 1: '
+num1 = gets.chomp.to_i
+print 'number 2: '
+num2 = gets.chomp.to_i
 puts calculate_sum(num1, num2)

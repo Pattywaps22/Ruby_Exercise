@@ -9,5 +9,6 @@ def calculate_age(birth_year)
   "I was born in #{birth_year}, and I am now #{age} years old.\n"
 end
 
-birth_year = 2001
+print 'birth year: '
+birth_year = gets.chomp.to_i
 puts calculate_age(birth_year)

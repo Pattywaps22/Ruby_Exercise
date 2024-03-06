@@ -8,6 +8,7 @@ def calculate_leap_year(year)
   end
 end
 
+print'year: '
 year = gets.chomp.to_i
 
 calculate_leap_year(year)

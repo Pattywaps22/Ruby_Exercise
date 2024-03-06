@@ -6,5 +6,6 @@ def even_or_odd(number)
   end
 end
 
+print 'input number: '
 number = gets.chomp.to_i
 even_or_odd(number)

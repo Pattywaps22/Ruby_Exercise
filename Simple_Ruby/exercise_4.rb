@@ -1,10 +1,13 @@
 #Write a Ruby program that takes a user's first name and last name as input, concatenates them, and prints the full name.
 
 
-def find_name(full_name)
-  "my name is #{full_name[:first_name]} #{full_name[:last_name]}"
+def print_name
+  print 'input first name: '
+  first_name = gets.chomp
+  print 'input last name: '
+  last_name = gets.chomp
 
+  "my name is #{first_name} #{last_name}"
 end
 
-name = {first_name: 'Stacey Bridget', last_name: 'Alcantara'}
-puts find_name(name)
+print_name
