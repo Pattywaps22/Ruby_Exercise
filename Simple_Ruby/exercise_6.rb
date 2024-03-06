@@ -5,6 +5,6 @@ def celsius_to_fahrenheit(celsius)
   puts "#{celsius} degrees Celsius is equal to #{fahrenheit} degrees Fahrenheit."
 end
 
-celsius = gets.chomp.to_i
+celsius = gets.chomp.to_f
 
 celsius_to_fahrenheit(celsius)
