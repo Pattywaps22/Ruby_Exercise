@@ -3,6 +3,25 @@
 # Perform addition, subtraction, multiplication, and division on the two numbers.
 # Print a message that includes the original numbers and the results of each operation.
 
+#Script Form
+print 'var1: '
+num1 = gets.chomp.to_i
+print 'var2: '
+num2 = gets.chomp.to_i
+
+sum = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+quotient= num1.to_f/ num2
+
+puts "sum: #{sum}"
+puts "difference: #{difference}"
+puts "product: #{product}"
+puts "quotient: #{quotient}"
+
+puts " "
+
+#Method Form
 def calculate_value(num1,num2)
 
     sum = num1 + num2
@@ -12,16 +31,16 @@ def calculate_value(num1,num2)
   return sum, difference, product, quotient
 end
 def result(num1, num2, sum, difference, product, quotient)
-  puts "the numbers are #{num1} and #{num2}"
-  puts "sum of the number is #{sum}"
-  puts "difference of the number is #{difference}"
-  puts "product of the number is #{product}"
-  puts "product of the number is #{quotient}"
+  puts "the variables are #{num1} and #{num2}"
+  puts "sum: #{sum}"
+  puts "difference: #{difference}"
+  puts "product: #{product}"
+  puts "quotient: #{quotient}"
 end
 
-print 'number 1: '
+print 'var1: '
 num1 = gets.chomp.to_i
-print 'number 2: '
+print 'var2: '
 num2 = gets.chomp.to_i
 
 

@@ -3,12 +3,23 @@
 # Calculate the person's age (assuming the current year is 2024).
 # Print a message that includes both the birth year and the calculated age
 
+#Script Method
+print 'birth year: '
+birth_year = gets.chomp.to_i
+
+current_year = 2024
+
+  age = current_year - birth_year
+puts "I was born in #{birth_year}, and I am now #{age} years old.\n"
+
+puts ""
+#Method Form
 def calculate_age(birth_year)
   current_year = 2024
     age = current_year - birth_year
-  "I was born in #{birth_year}, and I am now #{age} years old.\n"
+  puts "I was born in #{birth_year}, and I am now #{age} years old.\n"
 end
 
 print 'birth year: '
 birth_year = gets.chomp.to_i
-puts calculate_age(birth_year)
+calculate_age(birth_year)
