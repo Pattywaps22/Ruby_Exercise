@@ -6,5 +6,5 @@ def even_or_odd(number)
   end
 end
 
-number = 25
+number = gets.chomp.to_i
 even_or_odd(number)
