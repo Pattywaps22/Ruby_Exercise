@@ -5,19 +5,25 @@
 
 def calculate_value(num1,num2)
 
-  sum_result = num1 + num2
-  difference_result = num1 - num2
-  product_result = num1 * num2
-  quotient_result = num1.to_f/ num2
-
-    puts "The sum of #{num1} and #{num2} is #{sum_result}"
-    puts "The difference of #{num1} and #{num2} is #{difference_result}"
-    puts "The product of #{num1} and #{num2} is #{product_result}"
-    puts "The quotient of #{num1} and #{num2} is #{quotient_result}"
-
+    sum = num1 + num2
+    difference = num1 - num2
+    product = num1 * num2
+    quotient= num1.to_f/ num2
+  return sum, difference, product, quotient
 end
+def result(num1, num2, sum, difference, product, quotient)
+  puts "the numbers are #{num1} and #{num2}"
+  puts "sum of the number is #{sum}"
+  puts "difference of the number is #{difference}"
+  puts "product of the number is #{product}"
+  puts "product of the number is #{quotient}"
+end
+
 print 'number 1: '
 num1 = gets.chomp.to_i
 print 'number 2: '
 num2 = gets.chomp.to_i
-calculate_value(num1, num2)
+
+
+sum, difference, product, quotient = calculate_value(num1, num2)
+result(num1, num2, sum, difference, product, quotient)
