@@ -12,14 +12,13 @@ current_year = 2024
   age = current_year - birth_year
 puts "I was born in #{birth_year}, and I am now #{age} years old.\n"
 
-puts ""
-#Method Form
-def calculate_age(birth_year)
-  current_year = 2024
-    age = current_year - birth_year
-  puts "I was born in #{birth_year}, and I am now #{age} years old.\n"
-end
-
-print 'birth year: '
-birth_year = gets.chomp.to_i
-calculate_age(birth_year)
+# #Method Form
+# def calculate_age(birth_year)
+#   current_year = 2024
+#     age = current_year - birth_year
+#   puts "I was born in #{birth_year}, and I am now #{age} years old.\n"
+# end
+#
+# print 'birth year: '
+# birth_year = gets.chomp.to_i
+# calculate_age(birth_year)

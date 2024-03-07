@@ -19,30 +19,28 @@ puts "difference: #{difference}"
 puts "product: #{product}"
 puts "quotient: #{quotient}"
 
-puts " "
-
 #Method Form
-def calculate_value(num1,num2)
-
-    sum = num1 + num2
-    difference = num1 - num2
-    product = num1 * num2
-    quotient= num1.to_f/ num2
-  return sum, difference, product, quotient
-end
-def result(num1, num2, sum, difference, product, quotient)
-  puts "the variables are #{num1} and #{num2}"
-  puts "sum: #{sum}"
-  puts "difference: #{difference}"
-  puts "product: #{product}"
-  puts "quotient: #{quotient}"
-end
-
-print 'var1: '
-num1 = gets.chomp.to_i
-print 'var2: '
-num2 = gets.chomp.to_i
-
-
-sum, difference, product, quotient = calculate_value(num1, num2)
-result(num1, num2, sum, difference, product, quotient)
+# def calculate_value(num1,num2)
+#
+#     sum = num1 + num2
+#     difference = num1 - num2
+#     product = num1 * num2
+#     quotient= num1.to_f/ num2
+#   return sum, difference, product, quotient
+# end
+# def result(num1, num2, sum, difference, product, quotient)
+#   puts "the variables are #{num1} and #{num2}"
+#   puts "sum: #{sum}"
+#   puts "difference: #{difference}"
+#   puts "product: #{product}"
+#   puts "quotient: #{quotient}"
+# end
+#
+# print 'var1: '
+# num1 = gets.chomp.to_i
+# print 'var2: '
+# num2 = gets.chomp.to_i
+#
+#
+# sum, difference, product, quotient = calculate_value(num1, num2)
+# result(num1, num2, sum, difference, product, quotient)

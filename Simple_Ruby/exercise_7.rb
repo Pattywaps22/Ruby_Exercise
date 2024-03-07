@@ -7,12 +7,12 @@ print 'celsius: '
 fahrenheit = (celsius * 9/5) + 32
 puts "#{celsius} degrees Celsius is equal to #{fahrenheit} degrees Fahrenheit."
 
-#Method Form
-def celsius_to_fahrenheit(celsius)
-  fahrenheit = (celsius * 9/5) + 32
-  puts "#{celsius} degrees Celsius is equal to #{fahrenheit} degrees Fahrenheit."
-end
-print 'celsius: '
-celsius = gets.chomp.to_f
-
-celsius_to_fahrenheit(celsius)
+# #Method Form
+# def celsius_to_fahrenheit(celsius)
+#   fahrenheit = (celsius * 9/5) + 32
+#   puts "#{celsius} degrees Celsius is equal to #{fahrenheit} degrees Fahrenheit."
+# end
+# print 'celsius: '
+# celsius = gets.chomp.to_f
+#
+# celsius_to_fahrenheit(celsius)

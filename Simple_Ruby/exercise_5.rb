@@ -10,19 +10,18 @@ area = w * l
 
 puts "The area of the rectangle is #{area}"
 
-puts " "
-#Method Form
-def calculate_area(w, l)
-
-    area = w * l
-
-    puts "The area of the rectangle is #{area}"
-
-end
-
-print 'width: '
-w = gets.chomp.to_f
-print 'length: '
-l = gets.chomp.to_f
-
-puts calculate_area(w, l)
+# #Method Form
+# def calculate_area(w, l)
+#
+#     area = w * l
+#
+#     puts "The area of the rectangle is #{area}"
+#
+# end
+#
+# print 'width: '
+# w = gets.chomp.to_f
+# print 'length: '
+# l = gets.chomp.to_f
+#
+# puts calculate_area(w, l)
