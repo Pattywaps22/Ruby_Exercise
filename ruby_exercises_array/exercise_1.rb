@@ -29,7 +29,7 @@ For each score, classify and store the grade as:
 
 #Method Form
 def students(scores)
-  grades = Array.new
+  grades = []
 scores.map do |score|
 
   if score >= 90 && score <= 100
