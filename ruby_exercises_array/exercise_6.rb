@@ -4,12 +4,12 @@ For each product, if the quantity is greater than 50,
 mark it as "In Stock"; otherwise, mark it as "Low Stock."
 =end
 
-product = [25]
+product = [25, 51, 50, 47]
 
 stocks = []
 
 product.each do|quantity|
-  if quantity > 50
+  if quantity >= 50
     stocks << 'In Stocks'
   elsif
   stocks << 'No Stocks'
