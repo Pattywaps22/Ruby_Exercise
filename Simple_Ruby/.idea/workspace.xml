@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a97674-ce03-400c-8992-6254c2b51866" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_10.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_3.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_4.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_5.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_6.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_7.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_8.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_9.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ruby_exercises_array/exercise_1.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_1.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ruby_exercises_array/exercise_2.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby_exercises_array/exercise_2.rb" afterDir="false" />
-    </list>
+    <list default="true" id="c7a97674-ce03-400c-8992-6254c2b51866" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,21 +21,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ruby_09/Ruby_Exercise/Simple_Ruby",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ruby_09/Ruby_Exercise/Simple_Ruby&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +48,7 @@
       <workItem from="1709711886484" duration="4000" />
       <workItem from="1709802483866" duration="4000" />
       <workItem from="1709879358847" duration="11000" />
+      <workItem from="1710492888756" duration="3000" />
     </task>
     <servers />
   </component>

@@ -28,24 +28,32 @@ For each score, classify and store the grade as:
 # puts grades
 
 #Method Form
-def students(scores)
-  grades = []
-scores.map do |score|
+# def students(scores)
+#   grades = []
+# scores.map do |score|
+#
+#   if score >= 90 && score <= 100
+#     grades.push("A")
+#   elsif score >= 80 && score <= 89
+#     grades.push("B")
+#   elsif score >= 70 && score <= 79
+#     grades.push("C")
+#   elsif score >= 60 && score <= 69
+#     grades.push("D")
+#   else score < 60
+#   grades.push("F")
+#   end
+# end
+#   grades
+# end
+# scores = [ 95, 82, 62, 87, 77, 65, 55]
+#
+# puts students(scores)
 
-  if score >= 90 && score <= 100
-    grades.push("A")
-  elsif score >= 80 && score <= 89
-    grades.push("B")
-  elsif score >= 70 && score <= 79
-    grades.push("C")
-  elsif score >= 60 && score <= 69
-    grades.push("D")
-  else score < 60
-  grades.push("F")
-  end
-end
-  grades
-end
-scores = [ 95, 82, 62, 87, 77, 65, 55]
+names = %w[Mark James John]
+index = 0
 
-puts students(scores)
+while index < names.size
+  puts "#{names[index]} at index #{index}"
+  index += 1
+end
