@@ -21,5 +21,57 @@ Create a new class SubjectStudents
 
 class Course
   attr_accessor :id, :name
-
+  def initialize(id, name)
+    @id = id
+    @name = name
+  end
 end
+
+class Subject
+  attr_accessor :id, :name
+  def initialize(id, name)
+    @id = id
+    @name = name
+  end
+end
+
+class Teacher
+  attr_accessor :id, :name, :birth_date, :specialty, :email
+  def initialize(id, name, birth_date, specialty, email)
+    @id = id
+    @name = name
+    @birth_date = birth_date
+    @specialty = specialty
+    @email = email
+  end
+end
+
+class Student
+  attr_accessor :id, :name, :birth_date, :course_id, :parent
+  def initialize(id, name, birth_date, course_id, parent)
+    @id = id
+    @name = name
+    @birth_date = birth_date
+    @course_id = course_id
+    @parent = parent
+  end
+end
+
+class Room
+  attr_accessor :id, :name
+  def initialize(id, name)
+    @id = id
+    @name = name
+  end
+end
+
+class SubjectStudents
+  attr_accessor :subject_id, :student_id, :teacher_id, :day
+  def initialize(subject_id, student_id, teacher_id, day)
+    @subject_id = subject_id
+    @student_id = student_id
+    @teacher_id = teacher_id
+    @day = day
+  end
+end
+
