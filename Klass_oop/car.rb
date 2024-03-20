@@ -1,13 +1,14 @@
 class Car
-    attr_accessor :color, :model, :year, :plate_number, :klass, :car_type
+  Car_Colors = %w[red green blue yellow black violet white pink gray orange]
 
-    def initialize(color, model, year, plate_number, klass)
+  attr_accessor :color, :model, :year, :plate_number, :car_type
+    def initialize(color, model, year, plate_number, car_type)
       @speed = 0
       @color = color
       @model = model
       @year = year
       @plate_number = plate_number
-      @car_type = klass
+      @car_type = car_type
     end
 
     def details
@@ -16,20 +17,19 @@ class Car
         model: model,
         year: year,
         plate_number: plate_number,
-        car_type: klass
+        car_type: car_type
       }
     end
 
+    def random_color
+     @color = Car_Colors.sample
+   end
     def speed
       @speed
     end
 
     def random_speed
       @speed = rand(20)
-    end
-
-    def random_color
-      @color = rand(@color)
     end
 
     def increase_speed
@@ -58,16 +58,15 @@ cars = [
   # 1. filter the array of car class and return cars with class type 1
 # class_type_1 = cars.select { |car| car.car_type == '1' }
 # puts "Class Type 1 Cars:"
-# class_type_1.map { |car| puts car.details[:model] }
+# class_type_1.each { |car| puts car.details[:model] }
 
   # 2. Print plate_number
 # puts "Cars plate number:"
-# cars.map {|car| puts "#{car.details[:model]} == #{car.details[:plate_number]}"}
+# cars.each {|car| puts "#{car.details[:model]} == #{car.details[:plate_number]}"}
 
   # 3. Return most common color
-# most_common_color = cars.max { |car| car.color}
-# puts "most_common_color #{most_common_color}"
-# most_common_color.max { |car| puts cars.details[:color]}
+# puts "most_common_color"
+# cars.each { |car| puts car.color}
 
   #4. modify the decrease speed to avoid negative number
 # cars[0].increase_speed
@@ -84,6 +83,18 @@ cars = [
 # random.each { |car| puts "#{car.details[:model]} == speed (#{car.speed})" }
 
   # 6. Modify the color of each car randomly (loop)
-  random = cars.each { |car| car.random_color }
-  puts "random car speed:"
-  random.each { |car| puts "#{car.details[:model]} == color (#{car.random_color})" }
+ # cars.each { |car|
+ #   puts "Previous color: #{car.details[:color]}"
+ #   puts "New color: #{car.random_color}"
+ # }
+
+  #7. All specs of the car
+cars.each do |car|
+  puts "--------------------------------------------------"
+  puts "color: #{car.color}"
+  puts "model: #{car.model}"
+  puts "year: #{car.year}"
+  puts "plate number: #{car.plate_number}"
+  puts "Car type: #{car.car_type}"
+  puts "New color: #{car.random_color}"
+end
