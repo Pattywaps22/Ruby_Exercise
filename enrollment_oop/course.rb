@@ -5,7 +5,7 @@ Comment
 Student and Course Class:
                      Create classes for Student ,Teacher and Course.
 
-  Course  # attributes:  id, name
+ Course  # attributes:  id, name
 Subject # attributes: id, name
 Teacher # attributes: id, name, birth_date, specialty, email
 Student # attributes: id, name, birth_date, course_id, parent
@@ -18,4 +18,8 @@ Create a new class SubjectStudents
                Display the list of students, teachers and subjects
                Allow the user to create SubjectStudents by choosing the following students, teachers and subject
 =end
-knm
+
+class Course
+  attr_accessor :id, :name
+
+end
