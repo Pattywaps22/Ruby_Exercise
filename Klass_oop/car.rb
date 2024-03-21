@@ -53,7 +53,6 @@ cars = [
   Car.new('orange', 'subaru', '2005','FA73 MAK', '2')
 ]
 
-  # 3. Return most common color
 
   # 1. filter the array of car class and return cars with class type 1
 # class_type_1 = cars.select { |car| car.car_type == '1' }
@@ -62,7 +61,9 @@ cars = [
 
   # 2. Print plate_number
 # puts "Cars plate number:"
-# cars.each {|car| puts "#{car.details[:model]} == #{car.details[:plate_number]}"}
+# cars.each do |car|
+#   puts "#{car.details[:plate_number]}"
+# end
 
   # 3. Return most common color
 # puts "most_common_color"
@@ -83,10 +84,10 @@ cars = [
 # random.each { |car| puts "#{car.details[:model]} == speed (#{car.speed})" }
 
   # 6. Modify the color of each car randomly (loop)
- # cars.each { |car|
+ # cars.each do |car|
  #   puts "Previous color: #{car.details[:color]}"
  #   puts "New color: #{car.random_color}"
- # }
+ #   end
 
   #7. All specs of the car
 cars.each do |car|

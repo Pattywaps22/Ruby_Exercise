@@ -3,9 +3,9 @@ Create a new directory name enrollment_OOP
 Comment
 
 Student and Course Class:
-                     Create classes for Student ,Teacher and Course.
+Create classes for Student, Teacher and Course.
 
- Course  # attributes:  id, name
+Course  # attributes:  id, name
 Subject # attributes: id, name
 Teacher # attributes: id, name, birth_date, specialty, email
 Student # attributes: id, name, birth_date, course_id, parent
@@ -20,58 +20,33 @@ Create a new class SubjectStudents
 =end
 
 class Course
-  attr_accessor :id, :name
+  attr_accessor :id, :name, :birthdate
+
   def initialize(id, name)
     @id = id
     @name = name
   end
 end
 
-class Subject
-  attr_accessor :id, :name
-  def initialize(id, name)
-    @id = id
-    @name = name
-  end
-end
+# def self.generate_samples
 
-class Teacher
-  attr_accessor :id, :name, :birth_date, :specialty, :email
-  def initialize(id, name, birth_date, specialty, email)
-    @id = id
-    @name = name
-    @birth_date = birth_date
-    @specialty = specialty
-    @email = email
-  end
-end
-
-class Student
-  attr_accessor :id, :name, :birth_date, :course_id, :parent
-  def initialize(id, name, birth_date, course_id, parent)
-    @id = id
-    @name = name
-    @birth_date = birth_date
-    @course_id = course_id
-    @parent = parent
-  end
-end
-
-class Room
-  attr_accessor :id, :name
-  def initialize(id, name)
-    @id = id
-    @name = name
-  end
-end
-
-class SubjectStudents
-  attr_accessor :subject_id, :student_id, :teacher_id, :day
-  def initialize(subject_id, student_id, teacher_id, day)
-    @subject_id = subject_id
-    @student_id = student_id
-    @teacher_id = teacher_id
-    @day = day
-  end
-end
-
+@courses = [
+  Course.new('001', 'Bachelor of Science in Mathematics'),
+  Course.new('002', 'Bachelor of Science in English'),
+  Course.new('003', 'Bachelor of Science in Nursing'),
+  Course.new('004', 'Bachelor of Science in Chemistry'),
+  Course.new('005', 'Bachelor of Science in Biology'),
+  Course.new('006', 'Bachelor of Science in I.T'),
+  Course.new('007', 'Bachelor of Science in Education'),
+  Course.new('008', 'Bachelor of Science in Psychology'),
+  Course.new('009', 'Bachelor of Science in Engineering'),
+  Course.new('010', 'Bachelor of Science in Physics'),
+]
+# end
+# def self.generate_instances(count)
+#   instances = []
+#   count.times do |i|
+#     instances << Course.new(i + 1, "Course #{i + 1}")
+#   end
+#   instances
+# end

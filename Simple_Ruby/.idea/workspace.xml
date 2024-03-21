@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a97674-ce03-400c-8992-6254c2b51866" name="Changes" comment="" />
+    <list default="true" id="c7a97674-ce03-400c-8992-6254c2b51866" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../enrollment_oop/course.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../enrollment_oop/course.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +51,7 @@
       <workItem from="1709802483866" duration="4000" />
       <workItem from="1709879358847" duration="11000" />
       <workItem from="1710492888756" duration="3000" />
+      <workItem from="1710991155447" duration="2000" />
     </task>
     <servers />
   </component>
