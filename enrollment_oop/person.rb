@@ -1,9 +1,8 @@
 #inheritance
 class Person
-  attr_accessor :id, :name, :birth_date
+  attr_accessor :name, :birth_date
 
-  def initialize(id, name, birth_date)
-    @id = id
+  def initialize( name, birth_date)
     @name = name
     @birth_date = birth_date
   end
