@@ -29,7 +29,7 @@ end
 puts "------------------------------------------------------"
 puts "Teachers:"
 @teachers.each do |teacher|
-  puts "ID: #{teacher.id}"
+  puts "ID: #{teacher.teacher_id}"
   puts "Name: #{teacher.name}"
   puts "Birthdate: #{teacher.birth_date}"
   puts "Specialty: #{teacher.specialty}"
@@ -40,14 +40,21 @@ end
 puts "------------------------------------------------------"
 puts "List of Students:"
 @students.each do |student|
-  puts "ID: #{student.id}"
+  puts "ID: #{student.student_id}"
   puts "Name: #{student.name}"
   puts "Birthdate: #{student.birth_date}"
   puts "Course ID: #{student.course_id}"
   puts "Parent: #{student.parent}"
   puts "====================================================="
 end
-#
+
+puts "------------------------------------------------------"
+puts "Subject:"
+@subjects.each do |subject|
+  puts "Subject ID: #{subject.subject_id}, Name: #{subject.name}"
+end
+
+# puts "------------------------------------------------------"
 # puts "subject_students:"
 # @subject_students.each do |subjectstudent|
 #   puts "Course ID: #{subjectstudent.id}, Name: #{subjectstudent.name}"
