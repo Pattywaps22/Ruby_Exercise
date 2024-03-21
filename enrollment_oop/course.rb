@@ -42,6 +42,7 @@ end
   Course.new('009', 'Bachelor of Science in Engineering'),
   Course.new('010', 'Bachelor of Science in Physics'),
 ]
+
 # end
 # def self.generate_instances(count)
 #   instances = []
