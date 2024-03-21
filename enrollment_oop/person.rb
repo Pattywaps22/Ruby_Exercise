@@ -1,5 +1,4 @@
 #inheritance
-
 class Person
   attr_accessor :id, :name, :birth_date
 
