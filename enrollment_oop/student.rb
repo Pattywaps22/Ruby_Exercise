@@ -1,9 +1,10 @@
 require_relative 'person'
 class Student < Person
-  attr_accessor :course_id, :parent
+  attr_accessor :student_id, :course_id, :parent
 
-  def initialize(id, name, birth_date, course_id, parent)
-    super(id, name, birth_date)
+  def initialize(student_id, name, birth_date, course_id, parent)
+    super(name, birth_date)
+    @student_id = student_id
     @course_id = course_id
     @parent = parent
   end
