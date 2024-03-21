@@ -1,9 +1,10 @@
 require_relative 'Person'
 class Teacher < Person
-  attr_accessor :specialty, :email
+  attr_accessor :teacher_id, :specialty, :email
 
-  def initialize(id, name, birth_date, specialty, email)
-    super(id, name, birth_date)
+  def initialize(teacher_id, name, birth_date, specialty, email)
+    super(name, birth_date)
+    @teacher_id = teacher_id
     @specialty = specialty
     @email = email
   end
