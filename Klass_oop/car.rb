@@ -98,4 +98,5 @@ cars.each do |car|
   puts "plate number: #{car.plate_number}"
   puts "Car type: #{car.car_type}"
   puts "New color: #{car.random_color}"
+  puts "=================================================="
 end
